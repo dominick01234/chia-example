@@ -7,7 +7,7 @@
   (include condition_codes.clib)
 
   (defconstant TARGET_AMOUNT 500)
-  (defconstant CASH_OUT_PUZZLE_HASH 0xYourWallet) ; replace with your testnet decoded wallet address, prepend with 0x
+  (defconstant CASH_OUT_PUZZLE_HASH 0xa0f6b57c2c2511a4e2791124d4dd49a67b7d0b7a7898bc60648535d435eab015) ; replace with your testnet decoded wallet address, prepend with 0x
 
 
   (defun-inline cash_out (CASH_OUT_PUZZLE_HASH new_amount my_puzzlehash)
